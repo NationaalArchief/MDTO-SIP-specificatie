@@ -1,39 +1,25 @@
-# MDTO – Metagegevens voor Duurzaam Toegankelijke Overheidsinformatie
+# MDTO
 
-## Wat is MDTO?
+MDTO (Metagegevens Duurzaam Toegankelijke Overheidsinformatie) is een Nederlandse standaard voor het vastleggen van metadata bij overheidsinformatie, zodat documenten en dossiers duurzaam toegankelijk, vindbaar en betrouwbaar blijven, zowel nu als in de toekomst.
 
-Het MDTO (Metagegevens voor Duurzaam Toegankelijke Overheidsinformatie) is een metagegevensmodel dat richtlijnen en structuur biedt voor het vastleggen van metagegevens bij overheidsinformatie.  
-Het model ondersteunt duurzame toegankelijkheid, uitwisselbaarheid en beheer van informatie over langere tijd.
+## Normerende onderdelen van MDTO
 
-MDTO beschrijft onder andere:
+MDTO bestaat uit een aantal modules die samen het normerende deel vormen:
 
-- **Klassen** – de verschillende entiteiten binnen het model  
-- **Attributen bij klassen** – eigenschappen die nadere informatie vastleggen  
-- **Gegevensgroepen** – logische groeperingen van samenhangende gegevens  
-- **Begrippenlijsten** – gestandaardiseerde terminologie ter ondersteuning van eenduidig gebruik  
+- **Metagegevensschema** – Beschrijving van de structuur, relaties en betekenis van de metagegevens en de toegestane waarden.  
+  https://github.com/NationaalArchief/MDTO-Metagegevensschema
 
-Het model helpt organisaties om metagegevens op een consistente en toekomstbestendige manier vast te leggen.
+- **Begrippenlijsten** – Specificatie van de begrippenlijsten die binnen het metagegevensschema gebruikt worden voor mogelijke waarden van metagegevens.  
+  http://nationaalarchief.github.io/MDTO-Metagegevensschema/#begrippenlijsten
 
----
+- **XML-schema** – Beschrijving van de XML-syntax waarin metagegevens volgens het metagegevensschema worden uitgewisseld, inclusief toelichting en voorbeelden.  
+  https://github.com/NationaalArchief/MDTO-XSD
 
-## Doelgroep
+- **Specificatie Submission Information Package (SIP)** – Een SIP is een verzameling informatieobjecten met bijbehorende representaties en metagegevens voor uitwisseling tussen informatiesystemen.  
+  https://github.com/NationaalArchief/MDTO-SIP
 
-Dit technisch document is bedoeld voor:
-
-- Informatiearchitecten  
-- Functioneel beheerders  
-- Ontwikkelaars  
-- Dataspecialisten  
-- Leveranciers van informatiesystemen  
-- Adviseurs informatiehuishouding  
-
-Het document ondersteunt zowel implementatie als beleidsmatige toepassing van het metagegevensmodel.
-
----
-
-## Doe mee
-
-De ontwikkeling van MDTO is een open proces. Iedereen kan bijdragen door een issue in te dienen om een wijzigingsverzoek, vraag of verbetering voor te stellen, of door een pull request in te dienen met een concrete aanpassing. Na beoordeling kan het Nationaal Archief voorgestelde wijzigingen overnemen in het metagegevenschema.
+- **Definitie van MDTO-conform** – Uitleg wanneer een informatiesysteem aan MDTO voldoet.  
+  https://github.com/NationaalArchief/MDTO-Conform
 
 ## Contact
 

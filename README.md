@@ -7,7 +7,7 @@ MDTO (Metagegevens Duurzaam Toegankelijke Overheidsinformatie) is een Nederlands
 MDTO bestaat uit een aantal modules die samen het normerende deel vormen:
 
 - **Metagegevensschema** – Beschrijving van de structuur, relaties en betekenis van de metagegevens en de toegestane waarden.  
-  https://github.com/NationaalArchief/MDTO-Metagegevensschema
+  https://nationaalarchief.github.io/MDTO-Metagegevensschema/
 
 - **Begrippenlijsten** – Specificatie van de begrippenlijsten die binnen het metagegevensschema gebruikt worden voor mogelijke waarden van metagegevens.  
   http://nationaalarchief.github.io/MDTO-Metagegevensschema/#begrippenlijsten
@@ -16,11 +16,11 @@ MDTO bestaat uit een aantal modules die samen het normerende deel vormen:
   https://github.com/NationaalArchief/MDTO-XSD
 
 - **Specificatie Submission Information Package (SIP)** – Een SIP is een verzameling informatieobjecten met bijbehorende representaties en metagegevens voor uitwisseling tussen informatiesystemen.  
-  https://github.com/NationaalArchief/MDTO-SIP
+  https://nationaalarchief.github.io/MDTO-SIP/
 
 - **Definitie van MDTO-conform** – Uitleg wanneer een informatiesysteem aan MDTO voldoet.  
-  https://github.com/NationaalArchief/MDTO-Conform
-
+  https://nationaalarchief.github.io/MDTO-Conform/
+  
 ## Contact
 
 Voor vragen of nadere toelichting kun je contact opnemen met het Nationaal Archief via **info@nationaalarchief.nl**.

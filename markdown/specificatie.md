@@ -1,12 +1,10 @@
-# Specificatie Submission Information Package
-
-## Structuur van een Submission Information Package (SIP)
+# Structuur van een Submission Information Package (SIP)
 In de afbeelding is een voorbeeld van de structuur weergegeven van de informatieobjecten en bestanden in een SIP.  Elk informatieobject kan een aggregatie zijn. 
 
 ![Structuur van de informatieobjecten en bestanden in een SIP](images/sip2.png)
 
 
-### Sidecar-structuur
+## Sidecar-structuur
 De export uit het bronsysteem moet een sidecar-structuur hebben.
 In deze structuur zit de inhoud in een directory-structuur: elk aggregatieniveau van de informatieobjecten is een map. Een bestand kan op elk aggregatieniveau in de map zitten. Ook als daar ook nog een aggregatie van informatieobject beschikbaar is. Denk aan een e-mail met bijlagen of een website met de webpagina’s. 
 Elk informatieobject en elk bestand heeft zijn eigen MDTO metagegevensbestand. In de sidecar moet het versienummer van de betreffende MDTO-versie zijn opgenomen (zie MDTO.xml).
@@ -17,12 +15,12 @@ Een informatieobject is uniek en kan maar één keer in de SIP voorkomen. Er is 
 
 De aggregaties zijn de informatieobjecten die een hiërarchische relatie kennen. Dit is niet de 1 op 1 ordening zoals die in het bronsysteem bestaat. Als een dossier in de ordening in het bronsysteem onder meerdere informatieobjecten valt dan wordt deze maar 1 keer als record in de structuur opgenomen. De originele ordening is te vinden in de relaties.
 
-### Aggregatieniveau
+## Aggregatieniveau
 Elke aanlevering kent in ieder geval één aggregatieniveau.  Er is altijd sprake van een informatieobject, met meestal nog een bestand. Er kunnen meer aggregaties geleverd worden, met boven en onderliggende aggregaties.
 Elke aanlevering kent een bovenliggende aggregatieniveau  in het doelsysteem.  Naar dit informatieobject moet in de informatieobjecten die hier direct onder geplaatst worden in de MDTO-metadata een verwijzing zijn opgenomen.
 Neem in de pakbon op in welke collectie, bijv. archief, deze aanlevering moet worden geplaatst.
 
-### Naamgeving
+## Naamgeving
 De sidecar met MDTO-metadata bestaat uit een voorgeschreven formaat (XML) en een bestandsnaam. Dit ziet er zo uit: <naam>.MDTO.xml of bij een bestand: <bestandsnaam>.bestand.MDTO.xml. 
 
 Elk informatieobject of bestand moet een naam hebben. Deze naam moet in de aanlevering uniek zijn en hoeft niet met de titel overeen te komen. Voor de <informatieobjectnaam>. MDTO.xml of <bestandnaam.extensie>. MDTO.xml geldt in de aanlevering een limiet op het aantal karakters van 255.  
@@ -30,14 +28,14 @@ De namen van het informatieobject, bestand en de sidecars mogen niet de volgende
 
 Let op: De titel van een informatieobject staat altijd in de metagegevens. Deze kan wel leestekens bevatten of langer zijn dan 255 karakters. Verwar dit niet met de naam van het informatieobject zoals meegegeven voor de aanlevering. 
 
-### Metagegevens MDTO aanleveren
+## Metagegevens MDTO aanleveren
 MDTO metagegevens moeten in een MDTO metagegevensbestand worden aangeleverd. De aanleverende organisatie zorgt ervoor dat waar mogelijk na redelijke inspanning  metagegevensvelden een waarde hebben. Dit kan in voorkomende gevallen extra inspanning vragen van de aanleverende organisatie, bijvoorbeeld door het combineren van metagegevens. Verplichte metagegevens moeten altijd worden aangeleverd. 
 
 Voor het vullen kan gebruik worden gemaakt van het XML-schema of van de RDF-ontologie.          
 
 Met behulp van de .xsd controleert een doelsysteem de aangeleverde MDTO.xml bestanden.  
 
-### Additionele metagegevens aanleveren
+## Additionele metagegevens aanleveren
 Als naast MDTO ook een set met andere metagegevens meegeleverd wordt  bij een informatieobject doet u dat door het toevoegen van een eigen bestand voor elke set van metadata. Zoals voor elk bestand kent dit bestand een sidecar met de MDTO-metadata voor bestand.
 
 Voor elk metadatabestand gelden de volgende eisen:
@@ -50,7 +48,7 @@ Voor elk metadatabestand gelden de volgende eisen:
 
 De documentatie, zoals een definitiebestand, van een niet-erkende (eigen) standaard of metagegevensschema, levert u als informatieobject mee.
 
-## Pakbon
+# Pakbon
 
 De ontvangende partij moet van elke aangeleverde SIP kunnen vaststellen:
 
@@ -73,7 +71,7 @@ Bij de aanlevering van de export in een SIP levert de aanleverende organisatie d
 
 NB. De voorkeur gaat uit naar een xml bestand.
 
-## Begrippen
+# Begrippen
 
 **Bronsysteem:**\
 Systeem waar de informatieobjecten voor uitwisseling bewaard worden. Dit omvat alle applicaties tot aan de verzending van de SIP.  Bijv. een DMS met een exporttool. 

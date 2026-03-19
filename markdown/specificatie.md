@@ -7,7 +7,7 @@ In de afbeelding is een voorbeeld van de structuur weergegeven van de informatie
 ## Sidecar-structuur
 De export uit het bronsysteem moet een sidecar-structuur hebben.
 In deze structuur zit de inhoud in een directory-structuur: elk aggregatieniveau van de informatieobjecten is een map. Een bestand kan op elk aggregatieniveau in de map zitten. Ook als daar ook nog een aggregatie van informatieobject beschikbaar is. Denk aan een e-mail met bijlagen of een website met de webpagina’s. 
-Elk informatieobject en elk bestand heeft zijn eigen MDTO metagegevensbestand. In de sidecar moet het versienummer van de betreffende MDTO-versie zijn opgenomen (zie MDTO.xml).
+Elk informatieobject en elk bestand heeft zijn eigen MDTO metagegevensbestand. In de sidecar moet het versienummer van de betreffende MDTO-versie zijn opgenomen (zie [MDTO.xml](https://github.com/NationaalArchief/MDTO-XSD)).
 
 De plaats van het metagegevensbestand dat bij een aggregatie (map in de SIP) hoort, is in deze aggregatie. De plaats van het metagegevensbestand dat bij een bestand hoort, is naast het bestand.
 
@@ -23,15 +23,15 @@ Neem in de pakbon op in welke collectie, bijv. archief, deze aanlevering moet wo
 ## Naamgeving
 De sidecar met MDTO-metadata bestaat uit een voorgeschreven formaat (XML) en een bestandsnaam. Dit ziet er zo uit: <naam>.MDTO.xml of bij een bestand: <bestandsnaam>.bestand.MDTO.xml. 
 
-Elk informatieobject of bestand moet een naam hebben. Deze naam moet in de aanlevering uniek zijn en hoeft niet met de titel overeen te komen. Voor de <informatieobjectnaam>. MDTO.xml of <bestandnaam.extensie>. MDTO.xml geldt in de aanlevering een limiet op het aantal karakters van 255.  
-De namen van het informatieobject, bestand en de sidecars mogen niet de volgende karakters bevatten: < > : “ / \ | ? * # &.of spatie. Schoon, indien nodig, de informatieobject- en bestandsnamen in de SIP van deze karakters voor aanlevering.
+Elk informatieobject of bestand moet een naam hebben. Deze naam moet in de aanlevering uniek zijn en hoeft **niet** met de titel overeen te komen. Voor de <informatieobjectnaam>. MDTO.xml of <bestandnaam.extensie>. MDTO.xml geldt in de aanlevering een limiet op het aantal karakters van 255.  
+De namen van het informatieobject, bestand en de sidecars mogen niet de volgende karakters bevatten: **< > : “ / \ | ? * # &.of spatie**. Schoon, indien nodig, de informatieobject- en bestandsnamen in de SIP van deze karakters voor aanlevering.
 
 Let op: De titel van een informatieobject staat altijd in de metagegevens. Deze kan wel leestekens bevatten of langer zijn dan 255 karakters. Verwar dit niet met de naam van het informatieobject zoals meegegeven voor de aanlevering. 
 
 ## Metagegevens MDTO aanleveren
 MDTO metagegevens moeten in een MDTO metagegevensbestand worden aangeleverd. De aanleverende organisatie zorgt ervoor dat waar mogelijk na redelijke inspanning  metagegevensvelden een waarde hebben. Dit kan in voorkomende gevallen extra inspanning vragen van de aanleverende organisatie, bijvoorbeeld door het combineren van metagegevens. Verplichte metagegevens moeten altijd worden aangeleverd. 
 
-Voor het vullen kan gebruik worden gemaakt van het XML-schema of van de RDF-ontologie.          
+Voor het vullen kan gebruik worden gemaakt van het [XML-schema](https://github.com/NationaalArchief/MDTO-XSD) of van de [RDF-ontologie](https://github.com/NationaalArchief/MDTO-RDF).          
 
 Met behulp van de .xsd controleert een doelsysteem de aangeleverde MDTO.xml bestanden.  
 

@@ -25,7 +25,7 @@ info@nationaalarchief.nl
 
 **Doe mee**
 
-- [Bekijk de GitHub repository](repo: https://github.com/NationaalArchief/MDTO-SIP-specificatie)
+- [Bekijk de GitHub repository](https://github.com/NationaalArchief/MDTO-SIP-specificatie)
 - [Maak een issue aan](https://github.com/NationaalArchief/MDTO-SIP-specificatie/issues/new)
 - [Bekijk openstaande issues](https://github.com/NationaalArchief/MDTO-SIP-specificatie/issues)
 - [Neem contact op met het Nationaal Archief](https://www.nationaalarchief.nl/beleven/contactformulier-nationaal-archief)
